@@ -98,6 +98,12 @@ async def query_endpoint(request: QueryRequest):
         )
 
 
+@app.get("/")
+async def root():
+    """Root endpoint."""
+    return {"status": "ok", "service": "Monday BI Agent"}
+
+
 @app.get("/health", response_model=HealthResponse)
 async def health_check():
     """Health check endpoint to verify the deployment is alive."""
