@@ -22,22 +22,6 @@
 
 ---
 
-## Table of Contents
-
-- [About](#about)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Architecture](#architecture)
-- [Environment Variables](#environment-variables)
-- [Roadmap](#roadmap)
-- [License](#license)
-- [Author](#author)
-
----
-
 ## About
 
 Monday BI Agent is an AI agent that answers founder-level business intelligence queries by connecting to live Monday.com boards. It interprets natural language questions, pulls real-time data from Deals and Work Orders boards, cleans messy data, computes metrics, and delivers concise, actionable insights through a conversational interface.
@@ -225,25 +209,6 @@ monday-bi-agent/
 | Variable | Description |
 |----------|-------------|
 | `VITE_API_BASE_URL` | URL of the deployed FastAPI backend |
-
----
-
-## Roadmap
-
-- [x] Live Monday.com API integration
-- [x] Two-stage LLM query pipeline
-- [x] Data cleaning and quality reporting
-- [x] Action trace visibility
-- [x] Conversation memory and follow-ups
-- [x] Clarifying questions for ambiguous queries
-- [x] Dark/light mode toggle
-- [x] Markdown rendering in responses
-- [x] Rotating sample query suggestions
-- [x] Response time indicator
-- [x] Graceful rate limit error handling
-- [ ] Chart/graph visualizations for data
-- [ ] Export insights as PDF
-- [ ] Multi-user session support
 
 ---
 
