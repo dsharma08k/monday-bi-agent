@@ -1,8 +1,8 @@
-<h1 align="center">Monday BI Agent</h1>
-
 <p align="center">
   <img src="assets/banner.png" alt="Monday BI Agent Banner" width="100%" />
 </p>
+
+<h1 align="center">Monday BI Agent</h1>
 
 <p align="center">
   AI-powered business intelligence for your Monday.com boards.
