@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
+
+/* ── Light mode (default) ── */
+:root {
+    --bg-primary: #F5F5F0;
+    --bg-secondary: #EEEEE8;
+    --bg-card: #FFFFFF;
+    --text-primary: #1A1A1A;
+    --text-secondary: #6B6B6B;
+    --text-muted: #9A9A9A;
+    --accent: #2A9D8F;
+    --accent-light: #E8F5F3;
+    --accent-user: #3B82F6;
+    --border: #E5E5E0;
+}
+
+/* ── Dark mode ── */
+[data-theme="dark"] {
+    --bg-primary: #0F0F0F;
+    --bg-secondary: #1A1A1A;
+    --bg-card: #161616;
+    --text-primary: #E8E8E8;
+    --text-secondary: #A0A0A0;
+    --text-muted: #666666;
+    --accent: #2DD4BF;
+    --accent-light: #14342F;
+    --accent-user: #3B82F6;
+    --border: #2A2A2A;
+}
+
+* {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+}
+
+body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--text-muted);
+    border-radius: 4px;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fadeUp {
+    animation: fadeUp 0.35s ease-out;
+}
+
+@keyframes pulse-dot {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+}
+
+.animate-pulse-dot {
+    animation: pulse-dot 1.5s ease-in-out infinite;
+}
