@@ -1,12 +1,8 @@
+<h1 align="center">Monday BI Agent</h1>
+
 <p align="center">
   <img src="assets/banner.png" alt="Monday BI Agent Banner" width="100%" />
 </p>
-
-<p align="center">
-  <img src="frontend/public/logo.png" alt="Monday BI Agent Logo" width="80" />
-</p>
-
-<h1 align="center">Monday BI Agent</h1>
 
 <p align="center">
   AI-powered business intelligence for your Monday.com boards.
@@ -21,6 +17,7 @@
 </p>
 
 ---
+
 
 ## About
 
@@ -211,6 +208,7 @@ monday-bi-agent/
 | `VITE_API_BASE_URL` | URL of the deployed FastAPI backend |
 
 ---
+
 
 ## License
 
